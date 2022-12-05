@@ -3,7 +3,6 @@
 
 function solution(spell, dic) {
     let sum = 0
-    let res = 0
     for(let i = 0 ; i<dic.length;i++){
         let check = dic[i].split('')
         for(let i = 0 ; i<spell.length;i++){
